@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
+  <title>LGPD - Lei Geral de Proteção de Dados Pessoais</title>
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="img/favicon/site.webmanifest">
+  <link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#f15e22">
+  <meta name="msapplication-TileColor" content="#f15e22">
+  <meta name="theme-color" content="#f15e22">
+
+
+  <link rel="stylesheet" href="fontes/fonts.css">
+  <link rel="stylesheet" href="prefixedCss/config.css">
+  <link rel="stylesheet" href="prefixedCss/style.css">
+  <link rel="stylesheet" href="prefixedCss/mediaQueries.css">
+
+
+</head>
+
+
+<body>
+
+
+<div id="main">
+
+
+<div class="header flex">
+  <img src="img/Logo_mktmix_tranparente.png" alt="" class="logoImg">
+  <div class="headerLgpdTitle flex">
+    <div class="lgpdCircle block">
+      <span>LGPD</span>
+    </div>
+    <span class="headerLgpdTitleSpan">Lei Geral de Proteção de Dados Pessoais</span>
+  </div>
+  <div class="headerBtnsWrapper flex">
+    <button class="headerBtn headerBtnActive">POLÍTICA DE PRIVACIDADE</button>
+    <button class="headerBtn">VERIFICAR SEUS DADOS</button>
+    <button class="headerBtn">CONTATO</button>
+  </div>
+</div>
+
+
+
+
+<div class="textWrapperBlack flex">
+
+
+
+  <div class="faq grid">
+    <h2 class="faqTitle">Aqui a gente explica, esclarece e deixa tudo transparente. Se você tiver alguma dúvida é só entrar em contato com a gente.</h2>
+<div class="hrLine"></div>
+<button class="faqLine grid">
+  <div class="faqTitles">
+    <h2 class="faqTitlesH2">Como obtemos dados sobre você?</h2>
+  </div>
+  <div class="faqText">
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo sequi cupiditate ducimus mollitia dolore commodi omnis! In quos quod mollitia laudantium. Deserunt ducimus laborum hic. Dolore suscipit corporis magni sequi!</h2>
+  </div>
+</button>
+<button class="faqLine grid">
+  <div class="faqTitles">
+    <h2 class="faqTitlesH2">Para que utilizamos seus dados?</h2>
+  </div>
+  <div class="faqText">
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo sequi cupiditate ducimus mollitia dolore commodi omnis! In quos quod mollitia laudantium. Deserunt ducimus laborum hic. Dolore suscipit corporis magni sequi!</h2>
+  </div>
+</button>
+<button class="faqLine grid">
+  <div class="faqTitles faqTitlesVisible">
+    <h2 class="faqTitlesH2">Com quem compartilhamos seus dados?</h2>
+  </div>
+  <div class="faqText">
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo sequi cupiditate ducimus mollitia dolore commodi omnis! In quos quod mollitia laudantium. Deserunt ducimus laborum hic. Dolore suscipit corporis magni sequi!</h2>
+  </div>
+</button>
+<button class="faqLine grid">
+  <div class="faqTitles">
+    <h2 class="faqTitlesH2">Quais opções sobre o uso dos seus dados?</h2>
+  </div>
+  <div class="faqText">
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo sequi cupiditate ducimus mollitia dolore commodi omnis! In quos quod mollitia laudantium. Deserunt ducimus laborum hic. Dolore suscipit corporis magni sequi!</h2>
+  </div>
+</button>
+<button class="faqLine grid">
+  <div class="faqTitles">
+    <h2 class="faqTitlesH2">O quão seguro seus dados estão?</h2>
+  </div>
+  <div class="faqText">
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo sequi cupiditate ducimus mollitia dolore commodi omnis! In quos quod mollitia laudantium. Deserunt ducimus laborum hic. Dolore suscipit corporis magni sequi!</h2>
+  </div>
+</button>
+<button class="faqLine grid">
+  <div class="faqTitles">
+    <h2 class="faqTitlesH2">Como acessar, alterar e eliminar seus dados?</h2>
+  </div>
+  <div class="faqText">
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo sequi cupiditate ducimus mollitia dolore commodi omnis! In quos quod mollitia laudantium. Deserunt ducimus laborum hic. Dolore suscipit corporis magni sequi!</h2>
+  </div>
+</button>
+  </div>
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<script>
+  
+  document.querySelector('.textWrapperBlack').addEventListener('click', el => {
+    if(el.target.classList.contains('faqLine')) {
+      el.target.firstElementChild.firstElementChild.classList.toggle('faqTitlesH2Visible');
+      el.target.lastElementChild.classList.toggle('faqTextVisible');
+    }
+  })
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</body>
+
+
+
+
+</html>
